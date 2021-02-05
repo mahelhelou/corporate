@@ -1,4 +1,15 @@
-# Website Documentatin
+# Website Documentation
+
+## Edits & Notes
+
+- Fix navbar issues
+  - Dropping in mobile (done)
+  - Smooth scroll (done)
+- Fix slider issues
+- Edit footer section design
+- Fix responsive issues
+- Smooth scroll
+  - Apply active class for each nav-link on smooth scroll
 
 ## Style Guide
 

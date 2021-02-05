@@ -21,34 +21,38 @@
 <body id="top">
   <!-- Header -->
   <header>
-    <nav class="navbar navbar-expand-lg fixed-top bg-secondary py-4 font-weight-bold">
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top bg-secondary py-4 font-weight-bold">
       <div class="container">
         <a class="navbar-brand" href="#top">
           <img src="images/logo.png" width="175" alt="Corporate Startup Logo">
         </a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
-          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <button class="navbar-toggler bg-primary" type="button" data-toggle="collapse"
+          data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+          aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav ml-auto">
-            <li class="nav-item">
-              <a class="nav-link mr-3 active" aria-current="page" href="#slider">Home</a>
+            <li class="nav-item mr-3">
+              <a class="nav-link text-white active" href="#top">Home</a>
             </li>
-            <li class="nav-item">
-              <a class="nav-link mr-3 text-white" href="#services">Services</a>
+            <li class="nav-item mr-3">
+              <a class="nav-link text-white" href="#services">Services</a>
             </li>
-            <li class="nav-item">
-              <a class="nav-link mr-3 text-white" href="#portfolio">Our Works</a>
+            <li class="nav-item mr-3">
+              <a class="nav-link text-white" href="#portfolio">Our Works</a>
             </li>
-            <li class="nav-item">
-              <a class="nav-link mr-3 text-white" href="#team">Team</a>
+            <li class="nav-item mr-3">
+              <a class="nav-link text-white" href="#team">Team</a>
             </li>
-            <li class="nav-item">
+            <li class="nav-item mr-3">
               <a class="nav-link text-white" href="#testimonials">Testimonials</a>
             </li>
+            <li class="nav-item mr-3">
+              <a class="nav-link text-white" href="#blog">Blog</a>
+            </li>
             <li class="nav-item">
-              <a class="nav-link mr-3 text-white" href="#contact">Contact</a>
+              <a class="nav-link text-white" href="#contact">Contact</a>
             </li>
           </ul>
         </div>
@@ -57,7 +61,7 @@
   </header><!-- header-end -->
 
   <!-- Slider -->
-  <section id="slider" class="slider">
+  <section id="top" class="slider">
     <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
       <ol class="carousel-indicators mb-5">
         <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
@@ -152,7 +156,8 @@
   <section id="portfolio" class="portfolio py-5 text-center text-white">
     <div class="container">
       <h2 class="mb-3 text-white">Our Works</h2>
-      <p class="w-50 mx-auto">It is a long established fact that a reader will be distracted by the readable content of a
+      <p class="w-50 mx-auto">It is a long established fact that a reader will be distracted by the readable content of
+        a
         page when looking at its layout</p>
       <div class="mt-5 owl-carousel owl-theme">
         <div class="portfolio__item position-relative">
@@ -203,7 +208,8 @@
   <section id="team" class="team py-5 text-center bg-light">
     <div class="container">
       <h2 class="mb-3">Our Team</h2>
-      <p class="w-50 mx-auto">It is a long established fact that a reader will be distracted by the readable content of a
+      <p class="w-50 mx-auto">It is a long established fact that a reader will be distracted by the readable content of
+        a
         page when looking at its layout</p>
       <div class="mt-5 team-carousel owl-carousel">
         <div class="team__member position-relative">
@@ -275,61 +281,58 @@
     </div>
   </section><!-- team-end -->
 
-
-
   <!-- Testimonials -->
   <section id="testimonials" class="testimonials text-white text-center py-5">
     <div class="container">
       <h2 class="mb-3 text-white">Clients Testimonials</h2>
-      <p class="w-50 mx-auto">It is a long established fact that a reader will be distracted by the readable content of a
-        page when looking at its layout</p>
+      <p class="w-50 mx-auto">It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout</p>
       <div class="mt-5 owl-carousel">
         <div class="testimonials__item d-flex flex-column justify-content-center align-items-center">
           <img src="images/team/member1.png" class="testimonials__item-image rounded-circle mb-3" alt="">
           <h3 class="text-primary">John Doe</h3>
           <h6 class="text-white">Web Designer</h6>
-          <div class="testimonials__item-quote mt-4 text-white d-flex">
-            <i class="fas fa-quote-left fa-2x px-3"></i>
+          <div class="testimonials__item-quote my-4 text-white d-flex flex-column">
+            <i class="fas fa-quote-left fa-2x mb-2"></i>
             <p class="testimonials__item-text font-italic">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut
               impedit repudiandae, consequuntur, exercitationem unde inventore, facere nemo doloribus itaque cum
               voluptas at. Ipsam, quod magnam?</p>
-            <i class="fas fa-quote-right fa-2x px-3"></i>
+            <i class="fas fa-quote-right fa-2x mt-2"></i>
           </div>
         </div>
         <div class="testimonials__item d-flex flex-column justify-content-center align-items-center">
           <img src="images/team/member2.png" class="testimonials__item-image rounded-circle mb-3" alt="">
           <h3 class="text-primary">John Doe</h3>
           <h6 class="text-white">Web Designer</h6>
-          <div class="testimonials__item-quote mt-4 text-white d-flex">
-            <i class="fas fa-quote-left fa-2x px-3"></i>
+          <div class="testimonials__item-quote my-4 text-white d-flex flex-column">
+            <i class="fas fa-quote-left fa-2x mb-2"></i>
             <p class="testimonials__item-text font-italic">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut
               impedit repudiandae, consequuntur, exercitationem unde inventore, facere nemo doloribus itaque cum
               voluptas at. Ipsam, quod magnam?</p>
-            <i class="fas fa-quote-right fa-2x px-3"></i>
+            <i class="fas fa-quote-right fa-2x mt-2"></i>
           </div>
         </div>
         <div class="testimonials__item d-flex flex-column justify-content-center align-items-center">
           <img src="images/team/member3.png" class="testimonials__item-image rounded-circle mb-3" alt="">
           <h3 class="text-primary">John Doe</h3>
           <h6 class="text-white">Web Designer</h6>
-          <div class="testimonials__item-quote mt-4 text-white d-flex">
-            <i class="fas fa-quote-left fa-2x px-3"></i>
+          <div class="testimonials__item-quote my-4 text-white d-flex flex-column">
+            <i class="fas fa-quote-left fa-2x mb-2"></i>
             <p class="testimonials__item-text font-italic">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut
               impedit repudiandae, consequuntur, exercitationem unde inventore, facere nemo doloribus itaque cum
               voluptas at. Ipsam, quod magnam?</p>
-            <i class="fas fa-quote-right fa-2x px-3"></i>
+            <i class="fas fa-quote-right fa-2x mt-2"></i>
           </div>
         </div>
         <div class="testimonials__item d-flex flex-column justify-content-center align-items-center">
           <img src="images/team/member4.png" class="testimonials__item-image rounded-circle mb-3" alt="">
           <h3 class="text-primary">John Doe</h3>
           <h6 class="text-white">Web Designer</h6>
-          <div class="testimonials__item-quote mt-4 text-white d-flex">
-            <i class="fas fa-quote-left fa-2x px-3"></i>
+          <div class="testimonials__item-quote my-4 text-white d-flex flex-column">
+            <i class="fas fa-quote-left fa-2x mb-2"></i>
             <p class="testimonials__item-text font-italic">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut
               impedit repudiandae, consequuntur, exercitationem unde inventore, facere nemo doloribus itaque cum
               voluptas at. Ipsam, quod magnam?</p>
-            <i class="fas fa-quote-right fa-2x px-3"></i>
+            <i class="fas fa-quote-right fa-2x mt-2"></i>
           </div>
         </div>
       </div>
@@ -337,10 +340,11 @@
   </section><!-- testimonials-end -->
 
   <!-- Blog posts -->
-  <section class="blog text-center bg-light py-5">
+  <section id="blog" class="blog text-center bg-light py-5">
     <div class="container">
       <h2>Recents Posts From Blog</h2>
-      <p class="w-50 mx-auto">It is a long established fact that a reader will be distracted by the readable content of a
+      <p class="w-50 mx-auto">It is a long established fact that a reader will be distracted by the readable content of
+        a
         page when looking at its layout</p>
       <div class="row mt-5">
         <div class="col-md-4 mt-3 mt-md-0 text-left">
@@ -377,12 +381,13 @@
     </div>
   </section><!-- blog-posts-end -->
 
-   <!-- Conact us -->
-   <section id="contact" class="contact-us text-center text-white py-5">
-     <div class="container">
-       <h2 class="mb-3 text-white">Contact Us</h2>
-       <p class="w-50 mx-auto">It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout</p>
-       <form class="mt-5 w-50 mx-auto">
+  <!-- Conact us -->
+  <section id="contact" class="contact-us text-center text-white py-5">
+    <div class="container">
+      <h2 class="mb-3 text-white">Contact Us</h2>
+      <p class="w-50 mx-auto">It is a long established fact that a reader will be distracted by the readable content of
+        a page when looking at its layout</p>
+      <form class="mt-5 w-50 mx-auto">
         <div class="form-group">
           <input type="text" class="form-control py-4" id="name" placeholder="Enter your name...">
         </div>
@@ -397,23 +402,24 @@
         </div>
         <input type="submit" class="btn btn-primary px-5 py-3 font-weight-bold" value="Submit">
       </form>
-     </div>
-   </section><!-- contact-us-end -->
+    </div>
+  </section><!-- contact-us-end -->
 
-   <!-- Get blog updates -->
-   <section class="get-blog-updates py-5 bg-light text-center">
-     <div class="container">
-       <div class="row">
-         <div class="col-md-4">
-           <h2 class="mb-3">About Corporate</h2>
-           <p class="text-left">he point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English</p>
-           <div class="mt-3 text-left">
-             <p><i class="fas fa-envelope mr-2"></i> email@domain.com</p>
-             <p><i class="fas fa-mobile mr-2"></i> +970 123 456 789</p>
-             <p><i class="fas fa-location-arrow mr-2"></i>  69, New York City, New York</p>
-           </div>
-         </div>
-         <div class="col-md-4">
+  <!-- Get blog updates -->
+  <section class="get-blog-updates py-5 bg-light text-center">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-4">
+          <h2 class="mb-3">About Corporate</h2>
+          <p class="text-left">he point of using Lorem Ipsum is that it has a more-or-less normal distribution of
+            letters, as opposed to using 'Content here, content here', making it look like readable English</p>
+          <div class="mt-3 text-left">
+            <p><i class="fas fa-envelope mr-2"></i> email@domain.com</p>
+            <p><i class="fas fa-mobile mr-2"></i> +970 123 456 789</p>
+            <p><i class="fas fa-location-arrow mr-2"></i> 69, New York City, New York</p>
+          </div>
+        </div>
+        <div class="col-md-4">
           <h2 class="mb-3">Get Blog Updates</h2>
           <form action="" class="text-left">
             <div class="form-group">
@@ -421,32 +427,33 @@
             </div>
             <input type="submit" value="Sign up" class="btn btn-primary">
           </form>
-         </div>
-         <div class="col-md-4">
-           <h2>Stay in Touch</h2>
-           <div class="mt-4 sm-icons">
-             <a href="#"><i class="fab fa-facebook-f fa-2x mr-3"></i></a>
-             <a href="#"><i class="fab fa-twitter fa-2x mr-3"></i></a>
-             <a href="#"><i class="fab fa-linkedin-in fa-2x mr-3"></i></a>
-             <a href="#"><i class="fab fa-dribbble fa-2x mr-3"></i></a>
-             <a href="#"><i class="fab fa-youtube fa-2x"></i></a>
-           </div>
-         </div>
-       </div>
-     </div>
-   </section><!-- get-blog-updates-end -->
+        </div>
+        <div class="col-md-4">
+          <h2>Stay in Touch</h2>
+          <div class="mt-4 sm-icons">
+            <a href="#"><i class="fab fa-facebook-f fa-2x mr-3"></i></a>
+            <a href="#"><i class="fab fa-twitter fa-2x mr-3"></i></a>
+            <a href="#"><i class="fab fa-linkedin-in fa-2x mr-3"></i></a>
+            <a href="#"><i class="fab fa-dribbble fa-2x mr-3"></i></a>
+            <a href="#"><i class="fab fa-youtube fa-2x"></i></a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section><!-- get-blog-updates-end -->
 
-   <!-- Footer -->
-   <footer class="footer py-4 text-center bg-secondary text-white">
-     <div class="container">
-       <p>Copyright &copy; <script>document.write(new Date().getFullYear())</script> - Corporate</p>
-     </div>
-   </footer>
+  <!-- Footer -->
+  <footer class="footer py-4 text-center bg-secondary text-white">
+    <div class="container">
+      <p>Copyright &copy;
+        <script>document.write(new Date().getFullYear())</script> - Corporate
+      </p>
+    </div>
+  </footer>
 
   <!-- Scripts files -->
-  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
-    integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
-    crossorigin="anonymous"></script>
+  <script src="https://code.jquery.com/jquery-3.3.1.min.js"
+    integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
   <script src="js/owl.carousel.min.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
     integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"

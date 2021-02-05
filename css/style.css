@@ -3,6 +3,7 @@ body {
   font-family: 'Raleway', sans-serif;
   font-weight: 400;
   color: #777;
+  /* scroll-behavior: smooth */ /* Not supported in all browsers */
 }
 
 h1,
@@ -55,6 +56,7 @@ h3 {
 
 .active {
   color: #e74c3c !important;
+  /* border-bottom: 4px solid #e74c3c; */
 }
 
 .nav-link {
@@ -117,6 +119,12 @@ h3 {
 
 .fa-linkedin-in {
   background: #007bb6;
+}
+
+/* Navbar */
+nav.py-4 {
+  padding-top: 2.5rem !important;
+  padding-bottom: 2.5rem !important;
 }
 
 /* Slider */
@@ -223,6 +231,12 @@ h3 {
 }
 
 /* Media queries */
+@media screen and (max-width: 480px) {
+  .testimonials__item-text {
+    font-size: 1.25rem;
+  }
+}
+
 @media screen and (max-width: 767px) {
   .w-50 {
     width: 100% !important;
