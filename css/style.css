@@ -121,37 +121,22 @@ h3 {
   background: #007bb6;
 }
 
-/* Navbar */
-nav.py-4 {
-  padding-top: 2.5rem !important;
-  padding-bottom: 2.5rem !important;
+/* Slider */
+.carousel {
+  height: 100vh;
 }
 
-/* Slider */
-.carousel-item {
-  height: 35rem;
+.carousel-inner, .carousel-item {
+  height: 100%;
+}
+
+.carousel-item img {
+  height: 100%;
+  object-fit: cover;
 }
 
 .carousel-indicators li {
-  margin: 1rem .25rem;
-}
-
-.carousel-indicators li,
-.carousel-indicators li.active {
-  width: 1.25rem;
-  height: 1.25rem;
-  border-radius: 50% !important;
-  background: #34495e;
-}
-
-.carousel-indicators li.active {
-  background: #e74c3c;
-}
-
-.carousel-item .position-absolute {
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
+  height: .5rem;
 }
 
 /* Portfolio */

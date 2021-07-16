@@ -1,4 +1,10 @@
 $(document).ready(function () {
+  // Adjust slider height (100 vh, after header)
+  /* let windowHeight = $(window).height()
+  let navbarHeight = $('.navbar').innerHeight()
+
+  $('.carousel, .carousel-inner, .carousel-item, .carousel-item img').height(windowHeight - navbarHeight) */
+
   // Smooth scroll
   $('.nav-link, .navbar-brand').on('click', function (e) {
     if (this.hash !== '') {
@@ -30,9 +36,9 @@ $(document).ready(function () {
   })
 
   // Add active class to nav-link on scroll
-  let sections = $('section'),
-    nav = $('.navbar'),
-    nav_height = nav.outerHeight()
+  let sections = $('section')
+  let nav = $('.navbar')
+  let nav_height = nav.outerHeight()
 
   $(window).on('scroll', function () {
     let current_position = $(this).scrollTop()
